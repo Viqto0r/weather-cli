@@ -7,8 +7,8 @@ export const printError = (error) => {
   console.log(`${bgRed(' ERROR ')} ${error}`)
 }
 
-export const printSuccess = (error) => {
-  console.log(`${bgGreen(' SUCCESS ')} ${error}`)
+export const printSuccess = (text) => {
+  console.log(`${bgGreen(' SUCCESS ')} ${text}`)
 }
 
 export const printHelp = () => {
